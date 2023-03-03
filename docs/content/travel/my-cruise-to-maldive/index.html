@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A news blog template inspired by G.News">
-    <meta name="keywords" content="bloglifestyle" />
+    <meta name="description" content="Page description">
+    <meta name="keywords" content="MyCruiseToMaldive" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>MyCruiseToMaldive</title>
     <link rel="author" href="humans.txt" />
     <link rel="alternate" type="application/rss+xml"
-          title="RSS Feed for About"
+          title="RSS Feed for MyCruiseToMaldive"
           href="/feed/rss.xml" />
 
     <!-- Disable tap highlight on IE -->
@@ -66,91 +66,198 @@
     <script src="/js/zuix/animate-css.js"></script>
 
 <style>
-    /* CSS files add styling rules to your content */
-
+:root {
+    --primary-color: #000;
+    --accent-color: deeppink;
+    --background-color: #ffffff;
+    --header-color: #1765bd;
+    --header-background-color: rgba(248,248,248,1);
+}
 body {
-    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-    font-size: 16px;
-    margin: 0; padding: 0;
-    background: white;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-    overscroll-behavior-y: contain;
-    overflow-y: hidden;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 1.0em;
+    font-family: Helvetica, sans-serif;
+    background: var(--background-color);
+    overflow-x: hidden;
+}
+main {
+    overflow-x: hidden;
+    width: 100%;
+}
+a {
+    text-decoration: none!important;
+    color: var(--accent-color);
 }
 
-a, a:visited, a:hover {
-    font-weight: 700;
-   text-decoration: none;
-}
-
-button:hover, button:active, a.button:hover, a.button:active {
-    background: rgba(180,180,180,0.1)!important;
-}
-
-.content {
+p {
+    font-size: 120%;
+    line-height: 150%;
     font-family: serif;
-    font-size: 110%;
-    width: 100vw;
-    height: 100vh;
-    overflow-y: scroll;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+p code {
+    opacity: 0.8;
+    font-size: 85%!important;
 }
 
-.feed-pager {
-    height: 100vh;
+img {
+    max-width: 100%;
 }
 
-.list {
-    margin-top: 96px;
+li {
+    line-height: 160%;
+    margin-bottom: 8px;
+}
+li pre {
+    line-height: 100%;
+}
+h1,h2 {
+    margin-top: 24px;
     margin-bottom: 24px;
 }
-
-.hidden {
-    display: none!important;
+h1 {
+    font-size: 220%;
+    font-weight: 700;
+}
+h2 {
+    opacity: 0.8;
+    font-size:160%;
+    font-weight: 400;
+    line-height: 36px;
+}
+h3 {
+    opacity: 0.6;
+    font-size:140%;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+h4 {
+    opacity: 0.7;
+}
+h5 {
+    opacity: 0.6;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color:gray;
 }
 
-.message {
-    color: darkgrey;
-    width: 100vw;
-    font-size: 200%;
+blockquote {
+    opacity: 50%;
+}
+
+header {
+    width: 100%;
+    color: var(--header-color);
+    text-shadow:
+            3px 3px 0 rgba(0,0,0,5%),
+            -1px -1px 0 rgba(0,0,0,5%),
+            1px -1px 0 rgba(0,0,0,5%),
+            -1px 1px 0 rgba(0,0,0,5%),
+            1px 1px 0 rgba(0,0,0,5%);
+}
+header a,header a:visited {
+    color: var(--header-color);
+}
+header h1 {
+    margin: 0;
+}
+header .material-icons {
+    font-size: 280%;
+    opacity: 0.5;
+}
+footer {
+    width: 100%;
+/*    color: #FFF59D; */
+}
+footer a {
+/*    color: white; */
+    font-size:110%;
+}
+
+li small {
+    font-family: Helvetica, sans-serif;
+    font-size: 60%;
+    font-weight: 600;
+    margin-left: 6px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+pre {
+    margin-top: 24px!important;
+    margin-bottom: 24px!important;
+    max-width: 100%;
+}
+code {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+pre[class*="language-"] {
+    font-size: 120%;
+}
+
+pre code {
+    color: darkgreen;
+    font-size: 100%;
+    line-height: 140%;
+}
+
+ul.list {
+    margin-top: 0;
+}
+ul.list li {
+    padding: 0;
+    margin: 0;
+}
+
+.header-cover {
+    padding: 8px;
+    height: 64px;
+    background: var(--header-background-color);
+    border-bottom: solid 1px rgba(0,0,0,0.25);
+    box-shadow: 0 5px 2px -2px rgba(100,100,100,0.15);
+}
+.main-content {
+    padding: 24px 8px 48px;
+}
+
+.title {
+    padding: 8px;
+    /*
+    max-width: calc(100vw - 72px);
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+     */
 }
-.message i {
-    margin-left: 16px;
-    color: darkgrey;
-    font-size: 150%;
-}
-
-
-.page-scroll {
-    position:absolute;
-    top:56px;
-    bottom:56px;
-    left:0;
-    right:0;
-    overflow-y: auto;
+.image-cover {
+    width: 100%;
+    aspect-ratio: 1.6;
+    max-width: 960px;
 }
 
-
-iframe[z-field=content-frame] {
-    position: fixed;
-    display: block;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 100vw;
-    border: none;
-    overflow-y: auto;
-    overflow-x: hidden;
-    z-index: 100;
-    background: white;
+footer {
+    box-shadow: 0 -1px 3px 1px rgba(0,0,0,0.1)!important;
 }
 
-    /* forms */
+/* responsive */
+
+@media only screen and (max-width: 640px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media print {
+    [z-load*="/components/menu-overlay"] {
+        visibility: hidden;
+    }
+}
+
+/* forms */
 
 .button {
     cursor: pointer;
@@ -242,7 +349,7 @@ iframe[z-field=content-frame] {
     border-radius: 100%;
 }
 
-    :root {
+:root {
     --lite-color: #fff;
     --lite-color-text: #000;
     --lite-nav-color: #e7e7e7;
@@ -513,278 +620,125 @@ nav [z-field="header-tools"] .active {
 </head>
 
 
-<body>
 
-<noscript>
-Turn on JavaScript to access this site content.
-</noscript>
 
-<!-- The header bars (for each page) -->
+<body layout="column stretch-center">
 
-<nav z-field="header-bar" z-component="fragment" header-bar="">
 
-    <div class="header" layout="row center-justify" header-bar="">
-        <div z-field="header-box" layout="row center-left" header-bar="">
-
-          
-             <div class="title" layout="row center-left" header-bar="">
-                About
-             </div>
-
-        
-
-        </div>
-        <div style="margin: 12px;" header-bar="">
-            <input class="theme-toggle" type="checkbox" aria-label="Toggle theme" checked="" header-bar="">
-        </div>
-    </div>
-    <div z-field="header-tools" header-bar="">
-
-        
-
+    <div self="size-large" style="position: relative;width: 100%;;display: block">
+        <img class="image-cover" src="https://picsum.photos/seed/travel!my-cruise-to-maldive/320/200" alt="Cover image preview" style="position: absolute;display: block">
+        <img class="image-cover" src="https://picsum.photos/seed/travel!my-cruise-to-maldive/960/600" alt="Cover image" style="position: relative;display: block; z-index: 1">
+        <a class="icon-button background" aria-label="Back" href="javascript:closeContent()" style="width: 48px;height:48px;position:absolute;top:6px;left:6px;z-index:1;opacity: 0.65;border-radius: 48px">
+            <!-- put your logo here -->
+            <svg height="48px" viewBox="0 0 24 24" width="48px">
+                <path d="M0 0h24v24H0V0z" fill="none"/>
+                <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+            </svg>
+        </a>
     </div>
 
-</nav>
 
+<h1 class="title animate__animated animate__fadeIn">MyCruiseToMaldive</h1>
+
+    <div self="size-large" layout="column top-stretch" style="padding-right: 12px;padding-left: 12px">
+        <small>3 Mar 2023</small>
+    </div>
+
+
+<main self="size-large center" class="main-content animate__animated animate__fadeIn" layout="column top-stretch">
+
+    <p>El día cuando no se usó una regla para medir
+“No sólo de pan vive el hombre, sino de toda Palabra que sale de la boca de Dios”. Mateo 4:4
+¿Cuántos de ustedes van a la escuela? Es muy lindo cuando comienza el año escolar y mamá nos compra los materiales nuevitos para ir a clases. Dentro del estuche/cartuchera está el lápiz, la goma, los lápices de colores, etc. También está la regla. ¿Para qué sirve la regla? Sirve para medir y para ayudar a subrayar bien recto. La historia de hoy también es sobre un día en la escuela y sobre una regla. Solo que no se usó para medir. ¿Quieren saber lo que sucedió?
+Cuando Elena era niña, las escuelas eran pequeñas, tenían solo un maestro para toda la escuela. En vez de sillas había bancos donde se sentaban juntos dos o tres alumnos. Todo era de madera y bien simple. En aquel tiempo los maestros tenían la costumbre de aplicar castigos a los alumnos que no cumplían sus tareas o que hacían cosas incorrectas. Infelizmente, no siempre se podía elegir con quién sentarse, y a veces dependía de la suerte tener al lado un alumno que se portaba bien o tener que soportar a un colega indisciplinado todo un año.
+Elena no tuvo mucha suerte con una compañera de banco. En los primeros años escolares se sentó con una niña indisciplinada que no obedecía cuando el maestro le decía que se quedara quieta. Cierto día se portó tan mal que el maestro se enojó, le llamó la atención a la niña y la niña no obedeció. Sin pensar mucho el maestro hizo algo que nadie esperaba: arrojó la regla que tenía en su mano al pupitre (escritorio), pero su puntería no era buena. En vez de acertar al pupitre, golpeó en la cabeza de Elena. Ay, ¡que error! Elena quedó muy triste porque sufrió por causa de su compañera de banco. Como no había sido esa su intención, el maestro fue hasta Elena y le dijo: “Elena, ¿me perdonas? Cometí un error, no fue mi intención hacerte daño”. Elena respondió enseguida: “Claro que lo perdono maestro, pero usted no debería haberse puesto tan nervioso, la regla podría haber hecho más daño”. Creo que el maestro debe haber quedado avergonzado. Después de todo, las reglas existen para medir y no para herir a las personas. Menos mal que él reconoció su error y pidió perdón.
+Saben amiguitos, a veces los adultos se equivocan con los niños, y otras veces los niños se equivocan con los adultos. Es importante que tanto adultos como niños sepan pedir perdón y también perdonar, aún cuando el error haya sido un accidente o sin querer. Dios se siente feliz cuando hacemos las cosas correctas, pues él también nos perdona cuando lo necesitamos. Entonces, recuerden pedir perdón siempre que se equivocan. Y perdonen cuando alguien les pide perdón por algo que hicieron contra ustedes. Así todos estarán contentos.</p>
+
+
+    
+
+
+
+
+<div layout="row center-spread" style="margin-top: 56px; margin-bottom: 56px; padding-left: 8px; padding-right: 8px; font-size: 140%">
+
+    
+        <div>&nbsp;</div>
+    
+
+    
+    <div>&nbsp;</div>
+    
+
+</div>
 <style>
-
-[z-component][header-bar] {
-    position: fixed;    top:0;    left:0;    right:0;    height:auto;    border-bottom: solid 1px rgba(0,0,0,0.1);    box-shadow: 0 0 8px -1px rgba(0,0,0,0.5);    z-index: 2!important;}
-
-[z-component][header-bar]
-.header {
-    height: 56px;    max-height: 56px;}
-
-[z-component][header-bar]
-.title {
-    font-size: 180%;    font-weight: 550;}
-
-[z-component][header-bar]
-.logo {
-    margin-right: 12px;}
-
-[z-component][header-bar]
-.topics {
-    width: 100%;    height:40px;}
-
-[z-component][header-bar]
-.topics div {
-    font-size: 16px;    height:36px;    min-width: 96px;    text-align: center;    vertical-align: middle;    line-height: 36px;    border-bottom: solid 4px transparent;    cursor: pointer;}
-
-[z-component][header-bar]
-[z-field="header-box"] {
-    padding-left: 12px;    padding-right: 12px;    height: 100%;}
-
-[z-component][header-bar]
-.header-button {
-    padding: 0;    background: transparent;    border: none;    border-radius: 8px;    opacity: 0.7;}
-
-[z-component][header-bar]
-.header-button i {
-    font-size: 200%;    padding: 12px;}
-
-[z-component][header-bar]
-[z-field="header-tools"] .active {
-    font-weight: bold;}
-
-[z-component][header-bar]
-.search-box {
-    width: 100%;    max-width: 640px;    height: 100%;    text-align: center;    display: flex;    align-items: center;    justify-content: center;}
-
-[z-component][header-bar]
-.search-box input {
-    background-color: var(--lite-color);    width: 100%;    font-size: 130%;    font-family: inherit;    line-height: inherit;    color: #2e3750;    min-width: 12em;    transition: background-color 0.3s ease-in-out;}
-
-[z-component][header-bar]
-.search-box .input {
-    width: 100%;    position: relative;    background: linear-gradient(21deg, #10abff, #1beabd);    padding: 1px;    display: inline-block;    border-radius: 9999em;    margin: 8px;}
-
-[z-component][header-bar]
-.search-box .input *:not(span) {
-    position: relative;    display: inherit;    border-radius: inherit;    margin: 0;    border: none;    outline: none;    padding: 3px 8px;    z-index: 1;}
-
-[z-component][header-bar]
-.search-box .input *:not(span):focus + span {
-    opacity: 1;    -webkit-transform: scale(1);    transform: scale(1);}
-
-[z-component][header-bar]
-.search-box .input span {
-    -webkit-transform: scale(1);    transform: scale(1);    transition: opacity .25s, -webkit-transform .5s;    transition: transform .5s, opacity .25s;    transition: transform .5s, opacity .25s, -webkit-transform .5s;    opacity: 0;    position: absolute;    z-index: 0;    margin: 4px;    left: 0;    top: 0;    right: 0;    bottom: 0;    border-radius: inherit;    pointer-events: none;    box-shadow: inset 0 0 0 2px #fff, 0 0 0 2px #fff, 2px -2px 11px #1beabd,  -2px 2px 11px #10abff;}
-
-[z-component][header-bar]
-.search-box ::-webkit-input-placeholder {
-    color: #cbd0d5;}
-
-[z-component][header-bar]
-.search-box :-ms-input-placeholder {
-    color: #cbd0d5;}
-
-[z-component][header-bar]
-.search-box ::-ms-input-placeholder {
-    color: #cbd0d5;}
-
-[z-component][header-bar]
-.search-box ::placeholder {
-    color: #cbd0d5;}
-
-.theme-dark [header-bar] .search-box input {
-    background-color: var(--dark-color);
-    color: var(--dark-color-text);
-}
-.theme-dark [header-bar] .search-box input::placeholder {
-    opacity: 0.5;
-}
+    .navigation-image {
+        border-radius: 32px;
+        border-color: rgba(200,200,200,0.5);
+    }
+    .navigation-title {
+        margin: 8px;
+        opacity: 0.6;
+        font-size: 80%;
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 </style>
 
 
-<main z-field="pages" layout="column stretch-stretch">
 
-<section class="page-scroll" layout="column center-center">
+    <!--
+// TODO: List of related pages
+-->
 
-    <div self="size-small center-center" class="animate__animated animate__fadeIn animate__faster"
-         style="padding-top: 56px; padding-left: 12px;padding-right: 12px; line-height: 150%">
-
-        <p>
-            This template is based on <a href="https://github.com/zuixjs/zuix-web-starter">zuix-web-starter</a>
-            and on the static <a href="https://github.com/zuixjs/zuix-html-pwa">HTML-PWA</a> template.
-        </p>
-
-        <a href="https://github.com/zuixjs/news-blog" layout="row center-center" style="gap: 8px">
-            <img src="../images/github-mark.png" width="33" height="33" style="padding:1px; border-radius: 32px; background: white">
-            <div>source code</div>
-        </a>
-
-        <h2>Other resources</h2>
-        <ul>
-            <li>
-                <a href="https://zuixjs.github.io/zkit">zKit</a><br>
-                Collection of components for modern web.
-            </li>
-            <li>
-                <a href="https://zuixjs.org">zuix.js</a><br>
-                zuix.js presentation and documentation site.
-            </li>
-            <li>
-                <a href="https://11ty.dev">11ty.dev</a><br>
-                Static site generator that powers <em>zuix-web-starter</em>.
-            </li>
-        </ul>
-
-    </div>
-
-</section>
 
 </main>
 
-<!-- the pop-up context menu -->
-<div z-load="@lib/components/context-menu" class="visible-on-ready"
-     z-field="item-options-menu" z-lazy="false">
-    <div #menu>
-        <button #open-btn layout="row center-left">
-            <i class="material-icons">file_open</i>
-            <span>Open</span>
-        </button>
-        <button #bookmark-add-btn layout="row center-left">
-            <i class="material-icons">bookmark_add</i>
-            <span>Save for later</span>
-        </button>
-        <button #bookmark-remove-btn layout="row center-left">
-            <i class="material-icons accent">bookmark_remove</i>
-            <span>Remove from saved</span>
-        </button>
-        <button #share-btn layout="row center-left">
-            <i class="material-icons">share</i>
-            <span>Share</span>
-        </button>
-        <button layout="row center-left" disabled>
-            <i class="material-icons">not_interested</i>
-            <span>Hide items from this source</span>
-        </button>
-        <button layout="row center-left" disabled>
-            <i class="material-icons">thumb_up</i>
-            <span>More like this</span>
-        </button>
-        <button layout="row center-left" disabled>
-            <i class="material-icons">thumb_down</i>
-            <span>Less like this</span>
-        </button>
-    </div>
+<div z-load="@lib/components/menu-overlay" class="visible-on-ready"
+data-o-position="center">
+<div #items>
+<a href="javascript:printContent()" class="button"><span>Print</span>
+<i class="material-icons" style="margin-right: 2px">print</i>
+</a>
+<a href="javascript:shareContent()" class="button"><span>Share</span>
+<i class="material-icons" style="margin-right: 2px">share</i>
+</a>
+</div>
+<!-- custom open/close menu button -->
+<div #menu_button>
+<a class="circle-button" href="javascript:;" title="Open menu" >
+<i class="material-icons">toc</i>
+</a>
+</div>
+<div #menu_button_close>
+<a class="circle-button" href="javascript:;" title="Close menu" >
+<i class="material-icons">close</i>
+</a>
+</div>
 </div>
 
 
-<!-- The footer with page select buttons -->
+<footer layout="columns center-center" style="min-height: 80px">
 
-<footer z-field="footer-bar" layout="row center-center" z-component="fragment" footer-bar="">
+    <div self="size-large" layout="rows center-justify" style="padding: 12px; opacity: 0.75">
 
-    
-    
-    <a href="/home/" layout="column center-center" class="bar-button" footer-bar="">
-        <i class="material-icons" footer-bar="">home</i>
-        <span footer-bar="">Home</span>
-    </a>
+        <a href="https://pagespeed.web.dev/report?url=https://zuixjs.github.io/news-blog/content/travel/my-cruise-to-maldive/">
+            <div layout="row center-center" style="gap: 8px">
+                <img width="24" height="24" alt="PageSpeed Insight logo" src="/images/page-speed-insight-icon.png">
+                <span>PageSpeed Insight</span>
+            </div>
+        </a>
 
-    
-    
-    <a href="/search/" layout="column center-center" class="bar-button" footer-bar="">
-        <i class="material-icons" footer-bar="">search</i>
-        <span footer-bar="">Search</span>
-    </a>
+        <div>
+            powered by <a href="https://zuixjs.org"><strong>zuix.js</strong></a>
+        </div>
 
-    
-    
-    <a href="/saved/" layout="column center-center" z-field="saved-button" class="bar-button" footer-bar="">
-        <i class="material-icons" footer-bar="">bookmarks</i>
-        <span footer-bar="">Saved</span>
-    </a>
-
-    
-    
-    <a href="/about/" layout="column center-center" class="bar-button active" footer-bar="">
-        <i class="material-icons" footer-bar="">info</i>
-        <span footer-bar="">About</span>
-    </a>
+    </div>
 
 </footer>
 
-<style>
-[z-component][footer-bar] {
-    position: fixed;    left:0; bottom:0; right: 0;    height: 56px;    border-top: solid 1px rgba(0,0,0,0.1);    box-shadow: 0 0 8px -1px rgba(0,0,0,0.5);    text-align: center;    overflow: hidden;}
-
-[z-component][footer-bar]
-a.bar-button {
-    font-weight: 400;    width: 56px;    max-height: 56px;    margin-left: 8px;    margin-right: 8px;    background: transparent;    border: none;    border-radius: 8px;    text-align: center;    transition: color 0.5s ease-in-out;}
-
-[z-component][footer-bar]
-a.bar-button:focus {
-outline:0;}
-
-[z-component][footer-bar]
-a.bar-button i {
-    opacity: 0.7;    font-size: 24px !important;    padding: 2px;}
-
-[z-component][footer-bar]
-a.bar-button span {
-    opacity: 0.7;    font-size: 12px;}
-
-[z-component][footer-bar]
-a.active, 
-[z-component][footer-bar]
-a.active i, 
-[z-component][footer-bar]
-a:hover, 
-[z-component][footer-bar]
-a:hover i, 
-[z-component][footer-bar]
-a.active span {
-    opacity: 1.0!important;}
-
-footer .active  {
-    color: var(--lite-color--accent);
-}
-.theme-dark footer .active {
-    color: var(--dark-color--accent)!important;
-}
-</style>
 
 
 
@@ -794,36 +748,52 @@ footer .active  {
 
 </body>
 
+<!-- page script -->
 <script>
-/* global zuix */
+    function closeContent() {
+  if (window.parent.location.pathname === '/editor/') {
+    return;
+  }
+  if (window.parent.closeContentFrame) {
+    window.parent.closeContentFrame(location);
+  } else if(parent.top.location.pathname !== '/editor/') {
+    location.href = '../../../home/#travel';
+  }
+}
+function shareContent() {
+  const item = {
+    title: document.title,
+    text: document.querySelector('meta[name="description"]').content,
+    url: document.location.href
+  };
+  if (navigator.share) {
+    navigator.share(item).then(() => {
+      console.log('Document url shared.');
+    }).catch(console.error);
+  } else {
+    console.log(item);
+    console.log('Sharing is not available in the current context');
+  }
+}
+function printContent() {
+  setTimeout(window.print, 750);
+}
 
-//window.__zuix__debug = true;
-zuix.lazyLoad(true, -window.innerWidth / 4);
-
-options = {
-  pageIndicator: {
-    enablePaging: true,
-    startGap: 40,
-    ready: function(pageIndicator) {
-      const pageButtons = pageIndicator.$.find('div');
-      if (pageButtons.length() > 0) {
-        pageButtons.each(function(i, el, $el) {
-          $el.on('click', function(e) {
-            if (viewPager) viewPager.page(i);
-          });
-        });
-      }
+document.body.addEventListener('keyup', function(e) {
+  if (e.key === 'Escape') {
+    const actionMenu = zuix.context('actions-menu');
+    if (!actionMenu || !actionMenu.showing()) {
+      closeContent();
     }
   }
-};
+});
 
-function syncPageIndicator(page) {
-  zuix.context('page-indicator', function(pageIndicator) {
-    const pageButtons = pageIndicator.$.find('div');
-    pageButtons.eq(page.out).removeClass('active');
-    pageButtons.eq(page.in).addClass('active');
-    pageIndicator.page(page.in);
-  });
+const history = window.history;
+if (history && history.pushState) {
+  history.pushState('back-detect', null, '#open');
+  window.onpopstate = function() {
+    closeContent();
+  };
 }
 
 themeSetup();
@@ -859,6 +829,15 @@ function themeSetup() {
 
 
 </script>
+
+
+<!-- zuix-editor data -->
+<script>
+    var zuixEditor = {
+        data: {"app":{"title":"News Blog","baseUrl":"/","language":"en","resourcePath":"/app/","libraryPath":{"@lib":"/lib/1.1/","@hgui":"https://genielabs.github.io/homegenie-web-ui/app/","@cdnjs":"https://cdnjs.cloudflare.com/ajax/libs/"},"zuixjs.github.io":{"baseUrl":"/","resourcePath":"/app/","libraryPath":{"@lib":"/lib/1.1/","@hgui":"https://genielabs.github.io/homegenie-web-ui/app/","@cdnjs":"https://cdnjs.cloudflare.com/ajax/libs/"}},"siteMapUrl":"https://zuixjs.github.io/news-blog","environment":"default"},"eleventy":{"version":"2.0.0","generator":"Eleventy v2.0.0","env":{"source":"cli","config":"D:/APPWEBVIEW/Blog-News Dark/news-blog-1.0.15/.eleventy.js","root":"D:/APPWEBVIEW/Blog-News Dark/news-blog-1.0.15"}},"date":"Last Modified","layout":"basic.liquid","tags":["travel"],"group":"travel","coverImage":"https://picsum.photos/seed/travel!my-cruise-to-maldive/960/600","coverSmall":"https://picsum.photos/seed/travel!my-cruise-to-maldive/640/400","coverPreview":"https://picsum.photos/seed/travel!my-cruise-to-maldive/320/200","title":"MyCruiseToMaldive","description":"Page description","author":null,"pubDate":"2023-03-03T06:45:42.000Z","keywords":["MyCruiseToMaldive"],"page":{"date":"2023-03-03T23:46:05.444Z","inputPath":"./source/content/travel/my-cruise-to-maldive/index.md","fileSlug":"my-cruise-to-maldive","filePathStem":"/content/travel/my-cruise-to-maldive/index","outputFileExtension":"html","templateSyntax":"liquid,md","url":"/content/travel/my-cruise-to-maldive/","outputPath":"docs/content/travel/my-cruise-to-maldive/index.html"}}
+    }
+</script>
+
 
 
 </html>
