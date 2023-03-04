@@ -80,7 +80,7 @@
         "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
       },
       "newschicago.netlify.app": {
-        "baseUrl": "/",
+        "baseUrl": "/home",
         "resourcePath": "{{ app['zuixjs.github.io'].baseUrl }}app/",
         "libraryPath": {
           "@lib": "{{ app['zuixjs.github.io'].baseUrl }}lib/1.1/",
