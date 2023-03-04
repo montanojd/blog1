@@ -8,7 +8,7 @@ Based on [zuix.js Web Starter](https://zuixjs.github.io/zuix-web-starter/) and [
 is implemented as a static site with `markdown` and `liquid` templates using [11ty](https://11ty.dev) engine.
 
 
-### --&gt;&gt;[ [Demo and Docs](https://zuixjs.github.io/news-blog/) ]&lt;&lt;--
+### --&gt;&gt;[ [Demo and Docs](https://zuixjs.github.io/) ]&lt;&lt;--
 
 
 ## Prerequisites

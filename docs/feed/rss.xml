@@ -3,99 +3,99 @@
 <channel>
     <title>News Blog</title>
     <link>https://zuixjs.github.io/news-blog</link>
-    <atom:link href="https://zuixjs.github.io/news-blog/feed/rss.xml" rel="self"></atom:link>
+    <atom:link href="https://zuixjs.github.io/feed/rss.xml" rel="self"></atom:link>
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Fri, 03 Mar 2023 18:46:19 -0500</lastBuildDate>
-    <pubDate>Fri, 03 Mar 2023 18:46:19 -0500</pubDate>
+    <lastBuildDate>Fri, 03 Mar 2023 20:05:35 -0500</lastBuildDate>
+    <pubDate>Fri, 03 Mar 2023 20:05:35 -0500</pubDate>
     <image>
         <title>News Blog</title>
-        <url>https://zuixjs.github.io/news-blog/images/icons/icon-152x152.png</url>
+        <url>https://zuixjs.github.io/images/icons/icon-152x152.png</url>
         <link>https://zuixjs.github.io/news-blog</link>
     </image>
     <item>
         <title>Landing Page</title>
-        <link>https://zuixjs.github.io/news-blog/</link>
-        <guid isPermaLink="true">https://zuixjs.github.io/news-blog/</guid>
+        <link>https://zuixjs.github.io/</link>
+        <guid isPermaLink="true">https://zuixjs.github.io/</guid>
         <description>A brand new *zuix.js* project!</description>
-        <pubDate>Fri, 03 Mar 2023 18:46:19 -0500</pubDate>
-        <atom:link href="https://zuixjs.github.io/news-blog/" rel="self" />
+        <pubDate>Fri, 03 Mar 2023 20:05:35 -0500</pubDate>
+        <atom:link href="https://zuixjs.github.io/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title></title>
-        <link>https://zuixjs.github.io/news-blog/js/zuix/animate-css.js</link>
-        <guid isPermaLink="true">https://zuixjs.github.io/news-blog/js/zuix/animate-css.js</guid>
+        <link>https://zuixjs.github.io/js/zuix/animate-css.js</link>
+        <guid isPermaLink="true">https://zuixjs.github.io/js/zuix/animate-css.js</guid>
         <description></description>
-        <pubDate>Fri, 03 Mar 2023 18:46:19 -0500</pubDate>
-        <atom:link href="https://zuixjs.github.io/news-blog/js/zuix/animate-css.js" rel="self" />
+        <pubDate>Fri, 03 Mar 2023 20:05:35 -0500</pubDate>
+        <atom:link href="https://zuixjs.github.io/js/zuix/animate-css.js" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title></title>
-        <link>https://zuixjs.github.io/news-blog/ui/_inc/content-frame/</link>
-        <guid isPermaLink="true">https://zuixjs.github.io/news-blog/ui/_inc/content-frame/</guid>
+        <link>https://zuixjs.github.io/ui/_inc/content-frame/</link>
+        <guid isPermaLink="true">https://zuixjs.github.io/ui/_inc/content-frame/</guid>
         <description></description>
-        <pubDate>Fri, 03 Mar 2023 18:46:19 -0500</pubDate>
-        <atom:link href="https://zuixjs.github.io/news-blog/ui/_inc/content-frame/" rel="self" />
+        <pubDate>Fri, 03 Mar 2023 20:05:35 -0500</pubDate>
+        <atom:link href="https://zuixjs.github.io/ui/_inc/content-frame/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>About</title>
-        <link>https://zuixjs.github.io/news-blog/about/</link>
-        <guid isPermaLink="true">https://zuixjs.github.io/news-blog/about/</guid>
+        <link>https://zuixjs.github.io/about/</link>
+        <guid isPermaLink="true">https://zuixjs.github.io/about/</guid>
         <description>A news blog template inspired by G.News</description>
-        <pubDate>Fri, 03 Mar 2023 18:46:19 -0500</pubDate>
-        <atom:link href="https://zuixjs.github.io/news-blog/about/" rel="self" />
+        <pubDate>Fri, 03 Mar 2023 20:05:35 -0500</pubDate>
+        <atom:link href="https://zuixjs.github.io/about/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>News Blog</title>
-        <link>https://zuixjs.github.io/news-blog/home/</link>
-        <guid isPermaLink="true">https://zuixjs.github.io/news-blog/home/</guid>
+        <link>https://zuixjs.github.io/home/</link>
+        <guid isPermaLink="true">https://zuixjs.github.io/home/</guid>
         <description>A news blog template inspired by G.News</description>
-        <pubDate>Fri, 03 Mar 2023 18:46:19 -0500</pubDate>
-        <atom:link href="https://zuixjs.github.io/news-blog/home/" rel="self" />
+        <pubDate>Fri, 03 Mar 2023 20:05:35 -0500</pubDate>
+        <atom:link href="https://zuixjs.github.io/home/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Saved bookmarks</title>
-        <link>https://zuixjs.github.io/news-blog/saved/</link>
-        <guid isPermaLink="true">https://zuixjs.github.io/news-blog/saved/</guid>
+        <link>https://zuixjs.github.io/saved/</link>
+        <guid isPermaLink="true">https://zuixjs.github.io/saved/</guid>
         <description>A news blog template inspired by G.News</description>
-        <pubDate>Fri, 03 Mar 2023 18:46:19 -0500</pubDate>
-        <atom:link href="https://zuixjs.github.io/news-blog/saved/" rel="self" />
+        <pubDate>Fri, 03 Mar 2023 20:05:35 -0500</pubDate>
+        <atom:link href="https://zuixjs.github.io/saved/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Search</title>
-        <link>https://zuixjs.github.io/news-blog/search/</link>
-        <guid isPermaLink="true">https://zuixjs.github.io/news-blog/search/</guid>
+        <link>https://zuixjs.github.io/search/</link>
+        <guid isPermaLink="true">https://zuixjs.github.io/search/</guid>
         <description>A news blog template inspired by G.News</description>
-        <pubDate>Fri, 03 Mar 2023 18:46:19 -0500</pubDate>
-        <atom:link href="https://zuixjs.github.io/news-blog/search/" rel="self" />
+        <pubDate>Fri, 03 Mar 2023 20:05:35 -0500</pubDate>
+        <atom:link href="https://zuixjs.github.io/search/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Travel</title>
-        <link>https://zuixjs.github.io/news-blog/content/travel/index.json</link>
-        <guid isPermaLink="true">https://zuixjs.github.io/news-blog/content/travel/index.json</guid>
+        <link>https://zuixjs.github.io/content/travel/index.json</link>
+        <guid isPermaLink="true">https://zuixjs.github.io/content/travel/index.json</guid>
         <description></description>
-        <pubDate>Fri, 03 Mar 2023 18:46:19 -0500</pubDate>
-        <atom:link href="https://zuixjs.github.io/news-blog/content/travel/index.json" rel="self" />
+        <pubDate>Fri, 03 Mar 2023 20:05:35 -0500</pubDate>
+        <atom:link href="https://zuixjs.github.io/content/travel/index.json" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>MyCruiseToMaldive</title>
-        <link>https://zuixjs.github.io/news-blog/content/travel/my-cruise-to-maldive/</link>
-        <guid isPermaLink="true">https://zuixjs.github.io/news-blog/content/travel/my-cruise-to-maldive/</guid>
+        <link>https://zuixjs.github.io/content/travel/my-cruise-to-maldive/</link>
+        <guid isPermaLink="true">https://zuixjs.github.io/content/travel/my-cruise-to-maldive/</guid>
         <description>Page description</description>
         <pubDate>Fri, 03 Mar 2023 01:45:42 -0500</pubDate>
-        <atom:link href="https://zuixjs.github.io/news-blog/content/travel/my-cruise-to-maldive/" rel="self" />
+        <atom:link href="https://zuixjs.github.io/content/travel/my-cruise-to-maldive/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.github.io/news-blog/content/travel/my-cruise-to-maldive/https://picsum.photos/seed/travel!my-cruise-to-maldive/320/200" />
+                       url="https://zuixjs.github.io/content/travel/my-cruise-to-maldive/https://picsum.photos/seed/travel!my-cruise-to-maldive/320/200" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>

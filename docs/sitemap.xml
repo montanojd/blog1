@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://zuixjs.github.io/news-blog/</loc>
+    <loc>https://zuixjs.github.io/</loc>
     <lastmod>2023-03-03</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.github.io/news-blog/about/</loc>
+    <loc>https://zuixjs.github.io/about/</loc>
     <lastmod>2023-03-03</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.github.io/news-blog/home/</loc>
+    <loc>https://zuixjs.github.io/home/</loc>
     <lastmod>2023-03-03</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.github.io/news-blog/saved/</loc>
+    <loc>https://zuixjs.github.io/saved/</loc>
     <lastmod>2023-03-03</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.github.io/news-blog/search/</loc>
+    <loc>https://zuixjs.github.io/search/</loc>
     <lastmod>2023-03-03</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.github.io/news-blog/content/travel/index.json</loc>
+    <loc>https://zuixjs.github.io/content/travel/index.json</loc>
     <lastmod>2023-03-03</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.github.io/news-blog/content/travel/my-cruise-to-maldive/</loc>
+    <loc>https://zuixjs.github.io/content/travel/my-cruise-to-maldive/</loc>
     <lastmod>2023-03-03</lastmod>
   </url>
 </urlset>
