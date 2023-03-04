@@ -58,7 +58,7 @@
     "app": {
       "title": "News Chicago",
       "language": "en",
-      "baseUrl": "https://newschicago.netlify.app/home",
+      "baseUrl": "/",
       "resourcePath": "/app/",
       "libraryPath": {
         "@lib": "{{ app.baseUrl }}lib/1.1/",
