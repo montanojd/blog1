@@ -2,7 +2,7 @@
 (function() {
   zuix.store('config', {
     "title": "News Blog",
-    "baseUrl": "/",
+    "baseUrl": "/blog1",
     "language": "en",
     "resourcePath": "/app/",
     "libraryPath": {

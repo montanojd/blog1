@@ -71,7 +71,7 @@
     },
     "app": {
       "title": "News Blog",
-      "baseUrl": "/",
+      "baseUrl": "/blog1",
       "language": "en",
       "resourcePath": "/app/",
       "libraryPath": {
@@ -80,7 +80,7 @@
         "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
       },
       "zuixjs.github.io": {
-        "baseUrl": "/",
+        "baseUrl": "/blog1",
         "resourcePath": "{{ app['zuixjs.github.io'].baseUrl }}app/",
         "libraryPath": {
           "@lib": "{{ app['zuixjs.github.io'].baseUrl }}lib/1.1/",
