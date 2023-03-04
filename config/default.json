@@ -70,7 +70,7 @@
       }
     },
     "app": {
-      "title": "News Blog",
+      "title": "News Chicago",
       "baseUrl": "/",
       "language": "en",
       "resourcePath": "/app/",
@@ -79,7 +79,7 @@
         "@hgui": "https://genielabs.github.io/homegenie-web-ui/app/",
         "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
       },
-      "zuixjs.github.io": {
+      "newschicago.netlify.app": {
         "baseUrl": "/",
         "resourcePath": "{{ app['zuixjs.github.io'].baseUrl }}app/",
         "libraryPath": {
@@ -88,7 +88,7 @@
           "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
         }
       },
-      "siteMapUrl": "https://zuixjs.github.io/news-blog"
+      "siteMapUrl": "https://newschicago.netlify.app"
     }
   }
 }

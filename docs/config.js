@@ -1,8 +1,8 @@
 /* eslint-disable quotes */
 (function() {
   zuix.store('config', {
-    "title": "News Blog",
-    "baseUrl": "/blog1",
+    "title": "News Chicago",
+    "baseUrl": "/",
     "language": "en",
     "resourcePath": "/app/",
     "libraryPath": {
@@ -10,7 +10,7 @@
       "@hgui": "https://genielabs.github.io/homegenie-web-ui/app/",
       "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
     },
-    "zuixjs.github.io": {
+    "newschicago.netlify.app": {
       "baseUrl": "/",
       "resourcePath": "/app/",
       "libraryPath": {
@@ -19,7 +19,7 @@
         "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
       }
     },
-    "siteMapUrl": "https://zuixjs.github.io/news-blog",
+    "siteMapUrl": "https://newschicago.netlify.app",
     "environment": "default"
   });
 })();
